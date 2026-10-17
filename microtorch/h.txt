@@ -1,0 +1,18 @@
+microtorch/
+├── microtorch/
+│   ├── __init__.py
+│   ├── module.py         # Step 1: Base Module class
+│   ├── layers.py         # Step 2, 4, 5: Linear, Dropout, BatchNorm
+│   ├── activations.py    # Step 3: ReLU, Sigmoid, Tanh
+│   ├── containers.py     # Step 6: Sequential
+│   ├── losses.py         # Step 7: MSELoss, BCELoss
+│   ├── optimizers.py     # Step 8: SGD, Adam
+│   └── dataloader.py     # Step 9: DataLoader
+├── examples/
+│   └── circle_classification.py  # Step 10: Full training pipeline demo
+├── tests/                # Unit test placeholders
+│   └── test_layers.py
+├── .gitignore
+├── LICENSE
+├── README.md             # Project documentation & usage
+└── pyproject.toml / setup.py  # Package configuration
